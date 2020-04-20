@@ -13,12 +13,20 @@ h1 {
     margin: 50px;
 }
 
-p {
+div {
     border: 1px solid black;
-    margin: 1px;
-    width: 80%;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
     text-align: left;
+
 }
+
+.row {
+    width: 100%;
+}
+
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -108,11 +116,7 @@ p {
     }
 }
 
-.row {
-    width: 100%;
-}
-
 .meat {
     text-align: right;
-    margin: 1px;
+    margin: 10px;
 }
