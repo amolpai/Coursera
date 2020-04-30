@@ -1,0 +1,99 @@
+body {
+    font-family: 'Comic Neue', cursive;
+    margin: 0px;
+}
+
+#header-nav {
+    background-color: #888888;
+    border: 0;
+    border-radius: 0;
+}
+
+.navbar-brand {
+    margin: 5px auto 20px auto;
+}
+
+.navbar-brand h1{
+    color: #557c3e;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar, .navbar-header button.navbar-toggle.icon-bar {
+    border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+#nav-list a {
+    color: #951C49;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #ffffff;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+  
+
+.text-center {
+    font-size: 0.8em;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.main-content {
+    margin: 50px auto 0;
+    height: auto;
+    font-size: 1.3em;
+    text-align: center;
+    background-color: #ff9999;
+}
+
+.main-content section {
+    width: 95%;
+    margin: 0 auto 0 auto;
+}
+
+.main-content .chicken-header {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        padding-top: 10px;
+        height: 20px;
+    }
+
+    .navbar-brand h1{
+        font-size: 5vw;
+    }
+
+    #collapsable-nav {
+        background-color: #add8e6;
+        margin-top: 10px;
+    }    
+
+    #collapsable-nav a { /* Collapsed nav menu text */
+        font-size: 1.5em;
+    }
+
+    
+}
